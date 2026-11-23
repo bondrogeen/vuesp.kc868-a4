@@ -1,0 +1,42 @@
+[
+  {
+    "name": "menu.home",
+    "icon": "home",
+    "path": "/"
+  },
+  {
+    "name": "menu.dashboard",
+    "icon": "dashboard",
+    "path": "/dashboard/"
+  },
+  {
+    "name": "menu.script",
+    "icon": "script",
+    "path": "/script/"
+  },
+  {
+    "name": "menu.settings",
+    "icon": "settings",
+    "path": "/device/settings/"
+  },
+  {
+    "name": "menu.fs",
+    "icon": "storage",
+    "path": "/device/storage/"
+  },
+  {
+    "name": "menu.gpio",
+    "icon": "gpio",
+    "path": "/device/gpio/"
+  },
+  {
+    "name": "menu.rs232",
+    "icon": "plug",
+    "path": "/device/rs232/"
+  },
+  {
+    "name": "menu.ir",
+    "icon": "bolt",
+    "path": "/device/ir/"
+  }
+]

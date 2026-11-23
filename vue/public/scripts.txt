@@ -1,0 +1,2 @@
+0:boot:call(4);
+4:relay_button:on('port_c');if:$e0 == 3;$f0=var('relay1');if:$f0;var('relay1',0);else;var('relay1',1);end;end;end;

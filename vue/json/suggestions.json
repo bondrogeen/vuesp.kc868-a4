@@ -1,0 +1,31 @@
+[
+  {
+    "label": "input",
+    "type": "func",
+    "insert": "input(${0})",
+    "detail": "input(pin:number) => value:number",
+    "description": "Read a GPIO input (pin 1–4). 0 means active."
+  },
+  {
+    "label": "output",
+    "type": "func",
+    "insert": "output(${0}, ${1})",
+    "detail": "output(pin:number, value?:number) => value:number",
+    "description": "Read or write a relay (pin 0–3). 1 turns the relay on."
+  },
+  {
+    "label": "port_c",
+    "type": "event",
+    "detail": "click on IN1–IN4<br>$e0=input:number<br>$e1=value:number<br>$e2=count:number"
+  },
+  {
+    "label": "port_l",
+    "type": "event",
+    "detail": "long press on IN1–IN4<br>$e0=input:number<br>$e1=value:number"
+  },
+  {
+    "label": "port_r",
+    "type": "event",
+    "detail": "repeat while held on IN1–IN4<br>$e0=input:number<br>$e1=value:number"
+  }
+]

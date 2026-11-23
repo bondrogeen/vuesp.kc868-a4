@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vuesp.ru/schema/vuesp-project.json",
+  "name": "vuesp.kc868-a4",
+  "summary": "KinCony KC868-A4 controller with 4 relays, 4 inputs, ADC/DAC, RS232, 433 MHz and IR.",
+  "description": "## Vuesp KC868-A4\n\nESP32 firmware for the KinCony KC868-A4 board. Four relays and four opto-isolated inputs are connected directly to GPIO, with four ADC channels, two 0-10 V DAC outputs, RS232, DS18B20, 433 MHz and IR interfaces.\n\nScriptRunner exposes `input` and `output` functions, and the dashboard contains controls for all four channels. The project includes the standard Vuesp Wi-Fi setup, LittleFS, GPIO and OTA features.",
+  "platforms": [
+    "ESP32"
+  ],
+  "tags": [
+    "esp32",
+    "io",
+    "kc868",
+    "kincony",
+    "relay",
+    "rs232",
+    "adc",
+    "dac",
+    "433mhz",
+    "ir"
+  ],
+  "createdWith": "vuesp-create@1.0.1",
+  "createdAt": "2026-11-09T01:09:04+03:00",
+  "template": {
+    "source": "github:bondrogeen/vuesp",
+    "ref": "master",
+    "commit": "5f4e625a05bc1285989f050a90b5bea6f6d31250"
+  }
+}
